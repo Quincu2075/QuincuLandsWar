@@ -1,0 +1,10 @@
+name: QuincuLandsWar
+version: 1.0
+main: me.quincu.quinculandswar.QuincuLandsWar
+api-version: '1.21'
+depend:
+  - Lands
+permissions:
+  warstaff.alertcaps:
+    default: op
+    description: Get alerts for capture points placed by someone
